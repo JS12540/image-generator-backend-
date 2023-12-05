@@ -9,13 +9,6 @@ from src.model import process_images
 
 app = FastAPI()
 
-# CORS (Cross-Origin Resource Sharing) settings to allow frontend access
-origins = [
-    "http://localhost",
-    "http://localhost:8000",  # Add your other allowed origins here,
-    "https://image-generation-frontend-dp4i9cdmx-jay-shahs-projects.vercel.app/"
-]
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
