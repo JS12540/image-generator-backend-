@@ -1,11 +1,11 @@
 from fastapi import FastAPI, HTTPException, Depends
-from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import torch
 import mediapy as media
 from torch import autocast
 from src.model import process_images
 import logging
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
