@@ -1,1 +1,1 @@
-# image-generator-backend-
+# image_generator_using-diffusion

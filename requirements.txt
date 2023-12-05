@@ -1,0 +1,7 @@
+diffusers
+transformers
+scipy
+mediapy
+accelerate
+bitsandbytes
+torch
